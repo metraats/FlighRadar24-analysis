@@ -1,0 +1,9 @@
+﻿country_converter
+airportsdata
+pandas
+numpy
+streamlit
+plotly
+networkx
+glob
+sklearn
