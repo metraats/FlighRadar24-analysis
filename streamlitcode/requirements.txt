@@ -1,4 +1,4 @@
-﻿country_converter
+country_converter
 airportsdata
 pandas
 numpy
@@ -6,3 +6,4 @@ streamlit
 plotly
 networkx
 sklearn
+
