@@ -7,7 +7,7 @@ import streamlit as st
 
 #Получаем данные:
 data = pd.DataFrame()
-for file in glob.glob('/Users/artemijstankevic/PycharmProjects/pythonProject6/Airportcsvs/*.csv'):
+for file in glob.glob('/Airportcsvs/*.csv'):
     data = pd.concat([data, pd.read_csv(file)])
 data.reset_index(drop=True, inplace=True)
 data = data[data['Number of flights'] != 0]
