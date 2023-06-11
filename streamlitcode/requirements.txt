@@ -5,5 +5,4 @@ numpy
 streamlit
 plotly
 networkx
-glob
 sklearn
